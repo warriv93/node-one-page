@@ -148,7 +148,7 @@ section.admin table {
 
     &.time { width: 12% }
     &.modified { width: 20% }
-    &.actions { width: 25% }
+    &.actions { width: 35% }
   }
   td:nth-of-type(3n + 3), tr:nth-of-type(2n + 1) td {
     background: $color-zebra;

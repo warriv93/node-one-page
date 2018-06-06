@@ -543,7 +543,7 @@ section.speakers .social a:after {
   line-height: 1em;
 }
 
-#page > header {
+#page header {
   width: 100%;
   margin: 0;
   background: #1a1a1a;
@@ -553,29 +553,28 @@ section.speakers .social a:after {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-#page > header .wrapper {
+#page header .wrapper {
   padding: 1.5em 0 0;
 }
 
-#page > header h1 {
+#page header h1 {
   font-size: 2em;
-  margin-right: 3.2em;
-  padding: 0 0 0.45em 0.2em;
+  margin-left: 10px;
   float: left;
 }
 
-#page > header h1 a {
+#page header h1 a {
   display: block;
   padding: 0.55em 0;
   color: #FFF;
 }
 
-#page > header h1 a:hover {
+#page header h1 a:hover {
   color: #F8CE47;
 }
 
 #menu {
-  float: right;
+  display: flex;
   font-size: 1.6em;
   line-height: 1;
   margin-left: -2em;
@@ -587,7 +586,6 @@ section.speakers .social a:after {
   font-size: 1em;
   list-style-type: none;
   margin: 0;
-  padding: 0 0 0.4375em;
 }
 
 #menu li {
@@ -2218,7 +2216,7 @@ section.admin table th.modified, section.admin table td.modified {
 }
 
 section.admin table th.actions, section.admin table td.actions {
-  width: 25%;
+  width: 35%;
 }
 
 section.admin table td:nth-of-type(3n + 3), section.admin table tr:nth-of-type(2n + 1) td {

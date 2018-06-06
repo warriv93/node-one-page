@@ -1,4 +1,4 @@
-#page > header {
+#page header {
   width: 100%;
   margin: 0;
   background: $color-background-header;
@@ -15,10 +15,7 @@
   }
   h1 {
     font-size: 2em;
-
-    // This margin-right is to ensure that the negative margin of #menu doesn't clash with the h1
-    margin-right: 1.6 * 2em; // #menu font-size * menu margin
-    padding: 0 0 (.9em/2) .2em;
+    margin-left: 10px;
     float: left;
 
     a {
@@ -33,7 +30,7 @@
 }
 
 #menu {
-  float: right;
+  display: flex;
   font-size: 1.6em;
   line-height: 1;
   margin-left: -2em;
@@ -44,7 +41,6 @@
     font-size: 1em;
     list-style-type: none;
     margin: 0;
-    padding: 0 0 (7em / 16);
   }
   li {
     display: inline-block;
