@@ -9,7 +9,7 @@ module.exports = (function () {
   return SirTrevor.Block.extend({
 
     flickrRegex: /(?:http[s]?:\/\/)?(?:www.)?(?:(?:(flickr.com)\/photos\/[^\/]+\/)|(?:(flic.kr)\/p\/))(\w+)/,
-    flickrKey: null,
+    flickrKey: "7506df142228a571b8563a7c2188c196",
 
     type: 'flickr',
     droppable: true,
