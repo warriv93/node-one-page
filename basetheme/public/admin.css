@@ -2055,6 +2055,10 @@ ul.st-text-block {
   }
 }
 
+section.login {
+  height: 100vh;
+}
+
 section.login .wrapper {
   padding-bottom: 10em;
 }
